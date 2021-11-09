@@ -174,7 +174,8 @@ button{
 }
 .benefits{
     background-color: #e6d5b8;
-    height: 650px;
+    height: auto;
+    padding-bottom: 65px;
 }
 .benefits h2{
     padding-top: 35px;
@@ -183,6 +184,7 @@ button{
 .row1{
     padding-left: 25px;
     display: flex;
+    height: auto;
 }
 .benefits{
     display: block;
@@ -205,6 +207,7 @@ button{
 .row2{
     padding-left: 25px;
     display: flex;
+    height: auto;
 }
 .benefit-4{
     padding-left: 10px;
@@ -242,7 +245,7 @@ button{
     text-align: center;
     background-color:  #f8f5f1;
     width: 33%;
-    height: 510px;
+    height: auto;
     margin: 0px 25px 0px 10px;
     box-shadow: 0.195px 0.195px 0.195px 0.195px #e45826;
 }
@@ -252,7 +255,7 @@ button{
     text-align: center;
     background-color:  #f8f5f1;
     width: 33%;
-    height: 510px;
+    height: auto;
     margin: 0px 25px 0px 10px;
     box-shadow: 0.195px 0.195px 0.195px 0.195px #e45826;
 }
@@ -262,7 +265,7 @@ button{
     text-align: center;
     background-color:  #f8f5f1;
     width: 33%;
-    height: 510px;
+    height: auto;
     margin: 0px 25px 0px 10px;
     box-shadow: 0.195px 0.195px 0.195px 0.195px #e45826;
 }
@@ -285,7 +288,8 @@ button{
 .get-healthy{
     margin-top: 45px;
     width: 100%;
-    height: 95px;
+    height: auto;
+    padding-bottom: 45px;
     background-color: #4a3933;
     display: flex;
 }
@@ -293,7 +297,7 @@ button{
     margin-top: 20px;
     margin-left: 485px;
     width: 290px;
-    height: 55px;;
+    height: auto;
     font-family: 'Fira Sans', sans-serif;
     background-color: #e45826;
     color: white;
@@ -304,7 +308,7 @@ button{
 }
 .footer{
     width: 100%;
-    height: 200px;
+    height: auto;
     background-color: #f8f5f1;
 }
 .footer a{
@@ -333,11 +337,6 @@ button{
 .ig {
     font-style: bold;
     display: flex;
-}
-.brand {
-    padding-right: 10px;
-    width: 18px;
-    height: 18px;
 }
 .footer .terms-policy{
     margin-left: 200px;
