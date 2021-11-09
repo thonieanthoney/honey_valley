@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&display=swap');
+
+
+body{
+    font-family: 'Lato' sans-serif;
+}
+/* .page-container {
+    width: 960px;
+    margin: auto auto auto auto;
+} */
+.logo{
+    width: 48px;
+    height: 56px;
+}
+.intro{
+    width: 350px;
+    object-fit: cover;
+    display: flex;
+}
+.product{
+    width: 20%;
+    height: 400px;
+    padding: 0px 65px 35px 45px;
+}
+nav{
+    width: 100%; 
+    display: flex;
+    justify-content: space-between;
+}
+.nav-links{
+    padding: 5px 0px 0px 0px;
+    color: #e45826;
+    padding: 0px 15px 0px 15px;
+    list-style-type: none;
+    display: flex;
+}
+nav ul li a:hover{
+    text-align: center;
+    color: white;
+    width: auto;
+    height: 30px;
+    padding-top: #e45826;;
+    background-color: #e45826;
+    transition: .9s;
+}
+a{
+    color:white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+}
+.header-elements{
+    padding: 20px 5px 0px 15px;
+}
+.headone{
+    display:block;
+    color: #f0a500;
+}
+
+p{
+    color: #444444;
+    font-family: 'lato', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+.header{
+    color: white;
+}
+.offering-header{
+    margin-left: 15px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin-bottom: 2px;
+    font-family:'Fira Sans', sans-serif;
+    font-weight: 700;
+}
+.section_one{
+    background-color: #4a3933;
+    width: 100%; 
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.mp{
+    color: white;
+    padding-bottom: 15px;
+}
+button{
+    outline: none;
+    border-color: transparent;
+}
+.header-elements button{
+    width: 125px;
+    height: 48px;
+}
+.button{
+    width: 200px;
+    height: 55px;
+    margin: 2px 2px 2px 2px;
+    font-family: 'Fira Sans', sans-serif;
+    background-color: #e45826;
+    color: white;
+    position: relative;
+}
+
+.mid-button{
+    padding-bottom: 35px;
+}
+.prod-button{
+        width: 80%;
+        height: 55px;
+        margin: 2px 2px 2px 2px;
+        font-family: 'Fira Sans', sans-serif;
+        background-color: #e45826;
+        color: white;
+        position: relative;
+}
+.heading{
+    color:#4a3933;
+}
+.offering{
+    display: flex;
+    justify-content: space-between;
+}
+.prod-text{
+    padding: 4px 4px 4px;
+}
+.small{
+    width: 22%;
+    height: auto;
+    margin: 0px 10px 0px 10px;
+    padding: 0px 15px 0px 15px;
+    justify-content: space-between;
+    display: inline-block;
+    text-align: center;
+    background-color:  #f8f5f1;
+}
+.medium-head{
+    width: 22%;
+    height: auto;
+    margin: 0px 10px 0px 10px;
+    padding: 0px 5px 5px 5px;
+    display: inline-block;
+    text-align:center;
+    background-color:  #e45826;
+}
+.medium{
+    width: 20%px;
+    height: auto;
+    justify-content: space-between;
+    display: inline-block;
+    text-align: center;
+    background-color:  #f8f5f1;
+}
+.large{
+    width: 22%;
+    height: 540px;
+    margin: 0px 25px 0px 10px;
+    justify-content: space-between;
+    display: inline-block;
+    text-align: center;
+    background-color:  #f8f5f1;
+}
+.benefits{
+    background-color: #e6d5b8;
+    height: 650px;
+}
+.benefits h2{
+    padding-top: 35px;
+    padding-left: 15px;
+}
+.row1{
+    padding-left: 25px;
+    display: flex;
+}
+.benefits{
+    display: block;
+}
+.benefit-1{
+    padding-left: 10px;
+    padding-right: 10px;
+    display: block;
+}
+.benefit-2{
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+}
+.benefit-3{
+    padding-left: 10px;
+    padding-right: 10px;
+    display: block;
+}
+.row2{
+    padding-left: 25px;
+    display: flex;
+}
+.benefit-4{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 32%;
+    display: block;
+}
+.benefit-5{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 35%;
+    display: Block;
+}
+.benefit-6{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 32%;
+    display: block;
+}
+.testimonials h2{
+    padding-top: 35px;
+    padding-left: 15px;
+}
+.testimonials p{
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+.test-row{
+    padding-left: 25px;
+    display: flex;
+}
+.scott {
+    padding: 20px 10px 15px 10px;
+    display: block;
+    text-align: center;
+    background-color:  #f8f5f1;
+    width: 33%;
+    height: 510px;
+    margin: 0px 25px 0px 10px;
+}
+.ramona {
+    padding: 20px 10px 15px 10px;
+    display: inline-block;
+    text-align: center;
+    background-color:  #f8f5f1;
+    width: 33%;
+    height: 510px;
+    margin: 0px 25px 0px 10px;
+}
+.natalie {
+    padding: 20px 10px 15px 10px;
+    display: block;
+    text-align: center;
+    background-color:  #f8f5f1;
+    width: 33%;
+    height: 510px;
+    margin: 0px 25px 0px 10px;
+}
+.italic-testimony {
+    font-style: italic;
+}
+.testimonials img{
+    margin-left: 5%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.testimonials :hover{
+    color: white;
+    background-color: #e45826;
+    transition: .1s;
+}
+/* .scott :hover{
+    text-align: center;
+    color: white;
+    background-color: #e45826;
+    transition: .9s;
+}
+.ramona :hover{
+    text-align: center;
+    color: white;
+    background-color: #e45826;
+    transition: .9s;
+}
+.natalie :hover{
+    text-align: center;
+    color: white;
+    background-color: #e45826;
+    transition: .9s;
+} */
+.get-healthy{
+    margin-top: 45px;
+    width: 100%;
+    height: 95px;
+    background-color: #4a3933;
+    display: flex;
+}
+.get-healthy button{ 
+    margin-top: 20px;
+    margin-left: 485px;
+    width: 290px;
+    height: 55px;;
+    font-family: 'Fira Sans', sans-serif;
+    background-color: #e45826;
+    color: white;
+}
+.get-healthy h2{
+    padding-left: 35px;
+    color: white;
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: #f8f5f1;
+}
+.footer a{
+    color: #e45826;
+    text-decoration: none;
+    list-style-type: none;
+    display: block;
+}
+.footer .menu{
+    margin-left: 100px;
+}
+.footer .social-media{
+    margin-left: 250px;
+}
+.social-media a{
+    display: block;
+}
+.social-media h3{
+    margin-bottom: 10px;
+}
+.fb {
+    font-style: bold;
+    display: flex;
+    color: #e45826;
+}
+
+.ig {
+    font-style: bold;
+    display: flex;
+    color: #e45826;
+}
+.brand {
+    padding-right: 10px;
+    width: 18px;
+    height: 18px;
+}
+.footer .terms-policy{
+    margin-left: 200px;
+}
+.footer h5{
+    color: #e45826;
+    font-style: bold;
+    text-align: center;
+}
+.rowuno{
+    display: flex;
+}
+.rowdos{
+    display: block;
+}
+.terms-policy h3{
+    margin-bottom: 10px;
+}
+.menu h3{
+    margin-bottom: 10px;
+}
+.menu a{
+    margin-bottom: 5px;
+}
+.social-media a{
+    margin-bottom: 5px
+}
