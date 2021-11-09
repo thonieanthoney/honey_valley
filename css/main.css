@@ -274,7 +274,7 @@ button{
 .test-row :hover{
     color: white;
     background-color: #e45826;
-    transition: .9s;
+    transition: .5s;
 }
 /* .scott :hover{
     text-align: center;
