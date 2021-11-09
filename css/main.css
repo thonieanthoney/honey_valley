@@ -276,24 +276,11 @@ button{
     background-color: #e45826;
     transition: .1s;
 }
-/* .scott :hover{
-    text-align: center;
+.test-row p:hover{
     color: white;
     background-color: #e45826;
-    transition: .9s;
+    transition: .1s;
 }
-.ramona :hover{
-    text-align: center;
-    color: white;
-    background-color: #e45826;
-    transition: .9s;
-}
-.natalie :hover{
-    text-align: center;
-    color: white;
-    background-color: #e45826;
-    transition: .9s;
-} */
 .get-healthy{
     margin-top: 45px;
     width: 100%;
