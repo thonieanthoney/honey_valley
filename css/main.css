@@ -340,13 +340,11 @@ button{
 .fb {
     font-style: bold;
     display: flex;
-    color: #e45826;
 }
 
 .ig {
     font-style: bold;
     display: flex;
-    color: #e45826;
 }
 .brand {
     padding-right: 10px;
@@ -378,4 +376,11 @@ button{
 }
 .social-media a{
     margin-bottom: 5px
+}
+.ig-ico{
+    padding-left: 5px;
+    
+}
+.fb-ico{
+    padding-left: 5px;
 }
