@@ -163,7 +163,7 @@ button{
 }
 .large{
     width: 22%;
-    height: 540px;
+    height: auto;
     margin: 0px 25px 0px 10px;
     justify-content: space-between;
     display: inline-block;
