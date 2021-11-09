@@ -39,11 +39,10 @@ nav{
 nav ul li a:hover{
     text-align: center;
     color: white;
-    width: auto;
-    height: 30px;
-    padding-top: #e45826;;
+    padding-top: 5px;
+    padding-bottom: 5px;
     background-color: #e45826;
-    transition: .9s;
+    transition: .05s;
 }
 a{
     color:white;
@@ -143,6 +142,7 @@ button{
     display: inline-block;
     text-align: center;
     background-color:  #f8f5f1;
+    box-shadow: 0.195px 0.195px 0.195px 0.195px #e45826;
 }
 .medium-head{
     width: 22%;
@@ -152,6 +152,7 @@ button{
     display: inline-block;
     text-align:center;
     background-color:  #e45826;
+    box-shadow: 0.195px 0.195px 0.195px 0.195px #e45826;
 }
 .medium{
     width: 20%px;
@@ -169,6 +170,7 @@ button{
     display: inline-block;
     text-align: center;
     background-color:  #f8f5f1;
+    box-shadow: 0.195px 0.195px 0.195px 0.195px #e45826;
 }
 .benefits{
     background-color: #e6d5b8;
@@ -242,6 +244,7 @@ button{
     width: 33%;
     height: 510px;
     margin: 0px 25px 0px 10px;
+    box-shadow: 0.195px 0.195px 0.195px 0.195px #e45826;
 }
 .ramona {
     padding: 20px 10px 15px 10px;
@@ -251,6 +254,7 @@ button{
     width: 33%;
     height: 510px;
     margin: 0px 25px 0px 10px;
+    box-shadow: 0.195px 0.195px 0.195px 0.195px #e45826;
 }
 .natalie {
     padding: 20px 10px 15px 10px;
@@ -260,6 +264,7 @@ button{
     width: 33%;
     height: 510px;
     margin: 0px 25px 0px 10px;
+    box-shadow: 0.195px 0.195px 0.195px 0.195px #e45826;
 }
 .italic-testimony {
     font-style: italic;
@@ -274,12 +279,8 @@ button{
 .test-row :hover{
     color: white;
     background-color: #e45826;
-    transition: .1s;
-}
-.test-row p:hover{
-    color: white;
-    background-color: #e45826;
-    transition: .1s;
+    transition: .05s;
+    box-shadow: 2px 2px 2px 2px #e45826;
 }
 .get-healthy{
     margin-top: 45px;
