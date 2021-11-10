@@ -142,7 +142,7 @@ button{
     display: inline-block;
     text-align: center;
     background-color:  #f8f5f1;
-    box-shadow: 0.195px 0.195px 0.195px 0.195px #e45826;
+    filter: drop-shadow(0 0 10px #0003);
 }
 .medium-head{
     width: 22%;
@@ -152,7 +152,7 @@ button{
     display: inline-block;
     text-align:center;
     background-color:  #e45826;
-    box-shadow: 0.195px 0.195px 0.195px 0.195px #e45826;
+    filter: drop-shadow(0 0 10px #0003);
 }
 .medium{
     width: 20%px;
@@ -170,7 +170,7 @@ button{
     display: inline-block;
     text-align: center;
     background-color:  #f8f5f1;
-    box-shadow: 0.195px 0.195px 0.195px 0.195px #e45826;
+    filter: drop-shadow(0 0 10px #0003);
 }
 .benefits{
     background-color: #e6d5b8;
@@ -247,7 +247,7 @@ button{
     width: 33%;
     height: auto;
     margin: 0px 25px 0px 10px;
-    box-shadow: 0.195px 0.195px 0.195px 0.195px #e45826;
+    filter: drop-shadow(0 0 10px #0003);
 }
 .ramona {
     padding: 20px 10px 15px 10px;
@@ -257,7 +257,7 @@ button{
     width: 33%;
     height: auto;
     margin: 0px 25px 0px 10px;
-    box-shadow: 0.195px 0.195px 0.195px 0.195px #e45826;
+    filter: drop-shadow(0 0 10px #0003);
 }
 .natalie {
     padding: 20px 10px 15px 10px;
@@ -267,7 +267,7 @@ button{
     width: 33%;
     height: auto;
     margin: 0px 25px 0px 10px;
-    box-shadow: 0.195px 0.195px 0.195px 0.195px #e45826;
+    filter: drop-shadow(0 0 10px #0003);
 }
 .italic-testimony {
     font-style: italic;
