@@ -5,6 +5,7 @@
 
 body{
     font-family: 'Lato' sans-serif;
+    margin: 0;
 }
 /* .page-container {
     width: 960px;
@@ -68,9 +69,11 @@ p{
 }
 .header{
     color: white;
+    padding-bottom: 15px;
 }
 .offering-header{
     margin-left: 15px;
+    margin-top: 35px;
 }
 h1,
 h2,
@@ -127,6 +130,7 @@ button{
     color:#4a3933;
 }
 .offering{
+    margin-top: 25px;
     display: flex;
     justify-content: space-between;
 }
@@ -172,9 +176,19 @@ button{
     background-color:  #f8f5f1;
     filter: drop-shadow(0 0 10px #0003);
 }
+.medium,.small, .medium-head, .large h1,h2,h3,h4,h5,p{
+    margin: 0;
+}
+.medium-head h5{
+    padding-top: 5px;
+}
+.small,.large h4, p{
+    padding-top: 20px;
+}
 .benefits{
     background-color: #e6d5b8;
     height: auto;
+    margin-top: 35px;
     padding-bottom: 65px;
 }
 .benefits h2{
@@ -188,6 +202,13 @@ button{
 }
 .benefits{
     display: block;
+}
+.benefits h2{
+    padding-bottom: 20px;
+}
+.benefit-1, .benefit-2, .benefit-3, .benefit-4, .benefit-5, .benefit-6 p{
+    padding-bottom: 20px;
+    padding-top: 0px;
 }
 .benefit-1{
     padding-left: 10px;
@@ -239,6 +260,9 @@ button{
     padding-left: 25px;
     display: flex;
 }
+.share{
+    margin-bottom: 25px;
+}
 .scott {
     padding: 20px 10px 15px 10px;
     display: block;
@@ -289,13 +313,15 @@ button{
     margin-top: 45px;
     width: 100%;
     height: auto;
-    padding-bottom: 45px;
+    padding-bottom: 25px;
     background-color: #4a3933;
     display: flex;
 }
 .get-healthy button{ 
     margin-top: 20px;
     margin-left: 485px;
+    padding-bottom: 5px;
+    padding-top: 5px;
     width: 290px;
     height: auto;
     font-family: 'Fira Sans', sans-serif;
@@ -304,9 +330,12 @@ button{
 }
 .get-healthy h2{
     padding-left: 35px;
+    padding-top: 15px;
     color: white;
 }
 .footer{
+    padding-top: 35px;
+    padding-bottom: 35px;
     width: 100%;
     height: auto;
     background-color: #f8f5f1;
